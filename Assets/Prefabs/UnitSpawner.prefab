@@ -148,6 +148,18 @@ PrefabInstance:
       value: UnitSpawningCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 6766506331145711541, guid: bed87c45a4299584ab7d08b9eef7a668, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766506331145711541, guid: bed87c45a4299584ab7d08b9eef7a668, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766506331145711541, guid: bed87c45a4299584ab7d08b9eef7a668, type: 3}
+      propertyPath: m_Color.r
+      value: 0.030668736
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766506331145711541, guid: bed87c45a4299584ab7d08b9eef7a668, type: 3}
       propertyPath: m_FillAmount
       value: 0
       objectReference: {fileID: 0}
@@ -242,6 +254,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6846848431820474973, guid: c5e343fc48484ae4992a7fd315057501, type: 3}
   m_PrefabInstance: {fileID: 3030971637816571124}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &3392649569399391347 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 361748584333963399, guid: c5e343fc48484ae4992a7fd315057501, type: 3}
+  m_PrefabInstance: {fileID: 3030971637816571124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8302028892906026108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -257,6 +274,14 @@ PrefabInstance:
       propertyPath: m_AssetId
       value: 48362bb061be3a848901e064b8686b0c
       objectReference: {fileID: 0}
+    - target: {fileID: 2924473157880711241, guid: f6bfc47543612994ab32846a340f252c, type: 3}
+      propertyPath: colorRenderers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924473157880711241, guid: f6bfc47543612994ab32846a340f252c, type: 3}
+      propertyPath: colorRenderers.Array.data[0]
+      value: 
+      objectReference: {fileID: 3392649569399391347}
     - target: {fileID: 4414411390992281206, guid: f6bfc47543612994ab32846a340f252c, type: 3}
       propertyPath: m_RootOrder
       value: 0

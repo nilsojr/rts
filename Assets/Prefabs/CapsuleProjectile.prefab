@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8102365706379614316}
   - component: {fileID: 4990479822555573717}
   - component: {fileID: 4756391537098571853}
+  - component: {fileID: 1981271344917933784}
   m_Layer: 9
   m_Name: CapsuleProjectile
   m_TagString: Untagged
@@ -150,3 +151,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1981271344917933784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730475653803583829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a5f36d2c50ede4e98acceb4a4a7cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  colorRenderers:
+  - {fileID: 749591351756847689}

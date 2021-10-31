@@ -28,6 +28,7 @@ public class UnitSpawner : NetworkBehaviour, IPointerClickHandler
         if (isServer)
         {
             ProduceUnits();
+            UpdateTimerDisplay();
         }
         else if (isClient)
         {
