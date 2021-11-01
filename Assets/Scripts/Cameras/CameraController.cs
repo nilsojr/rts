@@ -46,22 +46,22 @@ public class CameraController : NetworkBehaviour
 
             Vector2 cursorPosition = Mouse.current.position.ReadValue();
 
-            if (cursorPosition.y >= Screen.height - screenBorderThickness)
-            {
-                cursorMovement.z += 1;
-            }
-            else if (cursorPosition.y <= screenBorderThickness)
-            {
-                cursorMovement.z -= 1;
-            }
-            else if (cursorPosition.x >= Screen.width - screenBorderThickness)
-            {
-                cursorMovement.x += 1;
-            }
-            else if (cursorPosition.x <= screenBorderThickness)
-            {
-                cursorMovement.x -= 1;
-            }
+            // if (cursorPosition.y >= Screen.height - screenBorderThickness)
+            // {
+            //     cursorMovement.z += 1;
+            // }
+            // else if (cursorPosition.y <= screenBorderThickness)
+            // {
+            //     cursorMovement.z -= 1;
+            // }
+            // else if (cursorPosition.x >= Screen.width - screenBorderThickness)
+            // {
+            //     cursorMovement.x += 1;
+            // }
+            // else if (cursorPosition.x <= screenBorderThickness)
+            // {
+            //     cursorMovement.x -= 1;
+            // }
             
             pos += cursorMovement.normalized * speed * Time.deltaTime;
         }
