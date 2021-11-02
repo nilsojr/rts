@@ -174,6 +174,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: spawnPrefabs.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: spawnPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 678871507660880733, guid: 1f7af2160492a624d9db50d958e96df3, type: 3}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: spawnPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 4336742591852717134, guid: dd40d9545c0ed544aa9cbfd4374cb739, type: 3}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: spawnPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 678871507660880733, guid: dded04ff5c6f2a54bb2d7216a633c3b9, type: 3}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: spawnPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 7047207555976340440, guid: 7fa142209d8c3fb4da65092db759b8ea, type: 3}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: spawnPrefabs.Array.data[4]
+      value: 
+      objectReference: {fileID: 6361482191175352076, guid: d97448eb842f5324d802772172da849e, type: 3}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: spawnPrefabs.Array.data[5]
+      value: 
+      objectReference: {fileID: 548479771061320762, guid: 56ccefaf67b2c94479934ec3baeb080b, type: 3}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: spawnPrefabs.Array.data[6]
+      value: 
+      objectReference: {fileID: 6943181241552391219, guid: 0041afad2438f644c8950763654247ff, type: 3}
     - target: {fileID: 4770749015829812335, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
       propertyPath: m_Name
       value: NetworkManager
