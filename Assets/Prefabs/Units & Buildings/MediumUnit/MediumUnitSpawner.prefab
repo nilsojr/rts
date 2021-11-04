@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7174711157833751878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 624387743388439761}
+  m_Layer: 0
+  m_Name: AimAtPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624387743388439761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7174711157833751878}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2829786723286347108}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2711177306755576536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -118,6 +148,10 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: -0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 1422872850330275698, guid: 48362bb061be3a848901e064b8686b0c, type: 3}
+      propertyPath: aimAtPoint
+      value: 
+      objectReference: {fileID: 624387743388439761}
     - target: {fileID: 2533729834919130560, guid: 48362bb061be3a848901e064b8686b0c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -130,6 +164,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 2.054
       objectReference: {fileID: 0}
+    - target: {fileID: 3058841330457927673, guid: 48362bb061be3a848901e064b8686b0c, type: 3}
+      propertyPath: unitPrefab
+      value: 
+      objectReference: {fileID: 7218741615158705141, guid: 77b5f984317de5a458c710569f80bc0c, type: 3}
     - target: {fileID: 3276171647909797653, guid: 48362bb061be3a848901e064b8686b0c, type: 3}
       propertyPath: m_Center.x
       value: -0.3
@@ -149,6 +187,10 @@ PrefabInstance:
     - target: {fileID: 3276171647909797653, guid: 48362bb061be3a848901e064b8686b0c, type: 3}
       propertyPath: m_Extents.z
       value: 1.240277
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548630826698514164, guid: 48362bb061be3a848901e064b8686b0c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.994
       objectReference: {fileID: 0}
     - target: {fileID: 5653592648258755082, guid: 48362bb061be3a848901e064b8686b0c, type: 3}
       propertyPath: m_RootOrder

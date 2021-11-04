@@ -20,7 +20,7 @@ public class Health : NetworkBehaviour
     public override void OnStartServer()
     {
         currentHealth = maxHealth;
-
+        Debug.Log("current " + currentHealth);
         UnitBase.ServerOnPlayerDie += ServerHandlePlayerDie;
     }
 
@@ -40,6 +40,8 @@ public class Health : NetworkBehaviour
     [Server]
     public void DealDamage(int amount)
     {
+        Debug.Log("taking damage");
+        
         if (currentHealth == 0) { return; }
 
         currentHealth = Mathf.Max(currentHealth - amount, 0);
