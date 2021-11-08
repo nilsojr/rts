@@ -3135,9 +3135,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4770749015829812334, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: maxConnections
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4770749015829812335, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
       propertyPath: m_Name
       value: NetworkManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433402848332077788, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
+      propertyPath: SteamAppID
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d3dded34630a984495c8fa138bfbe53, type: 3}
@@ -3517,6 +3525,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lobbyUI: {fileID: 809470301}
   startButton: {fileID: 1493096140}
+  playerNameTexts:
+  - {fileID: 244234992}
+  - {fileID: 375898007}
+  - {fileID: 989266536}
+  - {fileID: 323962291}
 --- !u!1 &1873431792
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +3575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   landingPagePanel: {fileID: 446881188}
+  useSteam: 1
 --- !u!1 &1886852687
 GameObject:
   m_ObjectHideFlags: 0

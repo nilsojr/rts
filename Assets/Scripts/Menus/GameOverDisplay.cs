@@ -18,7 +18,7 @@ public class GameOverDisplay : MonoBehaviour
     private void OnDestroy()
     {
         GameOverHandler.ClientOnGameOver -= ClientHandleGameOver;
-    }
+    }    
 
     public void LeaveGame()
     {
